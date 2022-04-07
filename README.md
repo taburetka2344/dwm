@@ -64,5 +64,5 @@ cd dwm
 ```
 
 ```
-make clean install
+sudo make clean install
 ```
