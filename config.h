@@ -6,8 +6,8 @@ static const unsigned int gappx	    = 12;	/* gaps size between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=12", "fontawesome:size=14" };
-static const char dmenufont[]       = "monospace:size=11";
+static const char *fonts[]          = { "mono:size=11", "fontawesome:size=14" };
+static const char dmenufont[]       = "mono:size=11";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -22,8 +22,8 @@ static const XPoint stickyicon[]    = { {0,0}, {4,0}, {4,8}, {2,6}, {0,8}, {0,0}
 static const XPoint stickyiconbb    = {4,8};	/* defines the bottom right corner of the polygon's bounding box (speeds up scaling) */
 
 /* tagging */
-static const char *tags[] = { "", "", "", "4", "5", "6", "7", "8", "9" };
-static const char *defaulttagapps[] = { "urxvt", "librewolf", "Discord", "multimc", NULL, NULL, NULL, NULL, NULL };
+static const char *tags[] = { "", "", "", "", "", "EG", "qb", "8", "9" };
+static const char *defaulttagapps[] = { "urxvt", "librewolf", "Discord", "polymc", "steam", "heroic", "qutebrowser", NULL, NULL };
 
 static const Rule rules[] = {
 	/* xprop(1):
