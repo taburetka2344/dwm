@@ -23,7 +23,7 @@ static const XPoint stickyiconbb    = {4,8};	/* defines the bottom right corner 
 
 /* tagging */
 static const char *tags[] = { "", "", "", "", "", "EG", "qb", "8", "9" };
-static const char *defaulttagapps[] = { "urxvt", "librewolf", "Discord", "polymc", "steam", "heroic", "qutebrowser", NULL, NULL };
+static const char *defaulttagapps[] = { "urxvt", "librewolf", "discord", "polymc", "steam", "heroic", "qutebrowser", NULL, NULL };
 
 static const Rule rules[] = {
 	/* xprop(1):
